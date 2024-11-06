@@ -110,3 +110,21 @@ body {
 .social-icons .icon:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .footer .social-icons {
+        justify-content: center; /* Center-aligns the icons */
+        margin-top: 1rem; /* Adds some spacing from other elements if needed */
+    }
+
+    .footer .footer-nav {
+        justify-content: center; /* Centers navigation links for consistency */
+        flex-wrap: wrap; /* Wraps items to fit smaller screens */
+        gap: 1rem; /* Adjust spacing for mobile */
+    }
+
+    .footer .col {
+        flex-direction: column;
+        text-align: center;
+    }
+}
